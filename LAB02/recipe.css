@@ -1,0 +1,32 @@
+body{
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p{
+    margin-left: 2em;
+}
+
+h1{
+    background-color: pink;
+    color:black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
+h2{
+color:rgb(255, 102, 0);
+}
+
+h3{
+    background-color: white;
+    color:black;
+    font-style: italic;
+}
+
+ul{
+    text-indent: 4em;
+}
+
+ol{
+    font-size: 25px;
+}
