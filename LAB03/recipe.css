@@ -3,7 +3,7 @@ body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 body {
-    background-image: url('/images/pasta1.jpeg');
+    background-image: url('./images/pasta1.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
     height: 30px;
