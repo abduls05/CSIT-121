@@ -1,0 +1,116 @@
+body {
+    background-color: grey;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#container {
+    border-width: 3px; 
+    border-style: solid; 
+    border-color: blue;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 32px;
+    color: bisque;
+    font-family: monospace;
+    font-style: italic;
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+    color: bisque;
+    font-family: monospace;
+    text-align: center;
+}
+
+h3 {
+    font-size: 24px;
+    color: blue;
+    font-family: monospace;
+    text-align: center;
+}
+
+ul, ol {
+    font-size: 18px;
+    color: black;
+    font-family: monospace;
+    text-align: center;
+    list-style-position: inside;
+}
+
+p {
+    font-size: 16px;
+    color: black;
+    background-color: bisque;
+    font-family: monospace;
+    text-align: center;
+}
+
+a {
+    font-size: 30px;
+    color: yellow;
+    font-family: monospace;
+    text-align: center;
+}
+
+a:hover {
+    background-color: black;
+}
+
+.linkcenter {
+    text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+    body {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #container {
+        width: 50%;
+    }
+}
+
+.imgcenter{
+    display: flex;
+    justify-content: center;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    width: 50%;
+
+}
+
+@media only screen and (min-width: 768px) {
+    #container {
+        flex-direction: row;
+        padding: 10px;
+    }
+
+    main {
+        flex: 1;
+    }
+
+    aside {
+        flex: 1;
+    }
+
+    h1 {
+        font-size: 28px; /* Further reduced font size for smaller screens */
+    }
+
+    h2, h3 {
+        font-size: 20px; /* Further reduced font size for smaller screens */
+    }
+
+    ul, ol {
+        font-size: 16px; /* Further reduced font size for smaller screens */
+    }
+}
